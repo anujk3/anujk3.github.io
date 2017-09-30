@@ -70,7 +70,7 @@ DISPLAY_TAGS_INLINE = True
 DISPLAY_CATEGORIES_ON_SIDEBAR = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 RECENT_POST_COUNT = 5
-PYGMENTS_STYLE = "monokai"
+PYGMENTS_STYLE = "solarizedlight"
 
 BOOTSTRAP_THEME = 'journal' #'simplex'# 'cosmo' # 'readable'
 
