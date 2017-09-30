@@ -44,6 +44,7 @@ PLUGINS = ['ipynb.markup', 'i18n_subsites', ]
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
+EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'footnotes']
 
 SUMMARY_MAX_LENGTH = 200
 DISQUS_SITENAME = 'anujkatiyal-com'
