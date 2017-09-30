@@ -52,7 +52,7 @@ DISQUS_SITENAME = 'anujkatiyal-com'
 BANNER = 'images/data-science.jpg'
 #SITELOGO = 'images/earth.png'
 #SITELOGO_SIZE = 40
-FAVICON = 'images/earth.png'
+FAVICON = 'images/favicon.ico'
 
 BANNER_SUBTITLE = 'Blog about my Data Science learnings, Python and Data Vis'
 SHOW_ARTICLE_AUTHOR = True
