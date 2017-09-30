@@ -1,7 +1,7 @@
 Title: R in Python (Using R ggplot to make visualizations in Jupyter Notebook)
 Slug: r-python
 Date: 2017-09-30 18:56
-Category: Data_Vis
+Category: Data_Viz
 Tags: python, R, ggplot, rpy2
 Author: Anuj Katiyal
 Summary: Using R in Python and Jupyter Notebook using rpy2
