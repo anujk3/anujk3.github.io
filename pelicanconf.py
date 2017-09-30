@@ -55,7 +55,7 @@ BANNER = 'images/datascience.png'
 #SITELOGO_SIZE = 40
 FAVICON = 'images/favicon.ico'
 
-BANNER_SUBTITLE = 'Blog about my Data Science learnings, Python and Data Vis'
+BANNER_SUBTITLE = 'Blog about my Data Science learnings, Python and Data Viz'
 SHOW_ARTICLE_AUTHOR = True
 SHOW_DATE_MODIFIED = False
 BOOTSTRAP_FLUID = False   # set as false if you want a fixed width
