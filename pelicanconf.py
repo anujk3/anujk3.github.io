@@ -50,7 +50,7 @@ SUMMARY_MAX_LENGTH = 200
 DISQUS_SITENAME = 'anujkatiyal-com'
 
 ################# BOOTSTRAP SETTINGS ###########################
-BANNER = 'images/datascience.png'
+BANNER = 'images/data-science.jpg'
 #SITELOGO = 'images/earth.png'
 #SITELOGO_SIZE = 40
 FAVICON = 'images/favicon.ico'
