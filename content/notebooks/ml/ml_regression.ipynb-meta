@@ -2,6 +2,6 @@ Title: Ridge Regression using numpy in Python
 Slug: ml-regression
 Date: 2017-09-30 23:36
 Category: Machine Learning
-Tags: Python, numpy, matplotlib
+Tags: python, numpy, matplotlib
 Author: Anuj Katiyal
-Summary: Implementing ridge regression using numpy in Python and visualizing the importance of features
+Summary: Implementing ridge regression using numpy in Python and visualizing the importance of features and the effect of varying hyperparameters on the degree of freedom and RMSE
