@@ -1,0 +1,7 @@
+Title: checking
+Slug: aml-kaggle
+Date: 2017-10-01 03:31
+Category: Machine Learning
+Tags: python, scikit-learn, matplotlib, kaggle
+Author: Anuj Katiyal
+Summary: Implementingthe objective function variation as a function of iterations. The log likelihood function for logistic regression is maximized over w using Steepest Ascent and Newton's Method.
