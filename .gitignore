@@ -104,3 +104,4 @@ ENV/
 pelican-themes/
 pelican-plugins/
 *.pid
+output/
