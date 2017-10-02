@@ -16,9 +16,14 @@ RELATIVE_URLS = False
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
+SOCIAL = SOCIAL + (('rss', SITEURL + '/' + FEED_ALL_ATOM),)
+
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "anujkatiyal-com"
 GOOGLE_ANALYTICS = "UA-107297585-1"
+ADDTHIS_PROFILE = "ra-59d18c8fa90b4cec"
+
+SEARCH_URL = '/search'
