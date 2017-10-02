@@ -25,10 +25,11 @@ TAG_CLOUD_STEPS = 7
 TAG_CLOUD_MAX_ITEMS = 15
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 PATH = 'content'
-STATIC_PATHS = ['images', 'codes', 'figures', 'notebooks', 'extra/CNAME', 'extra/robots.txt']
+STATIC_PATHS = ['images', 'codes', 'figures', 'notebooks', 'extra/CNAME', 'extra/robots.txt', 'pdfs']
 EXTRA_PATH_METADATA = {
         'extra/CNAME': {'path': 'CNAME'},
         'extra/robots.txt': {'path': 'robots.txt'},
+        'pdfs/AnujKatiyal_Resume.pdf': {'path': 'AnujKatiyal_Resume.pdf'}
 }
 #PAGE_PATHS = ['notebooks']
 #ARTICLE_PATHS = ['notebooks']
@@ -88,8 +89,6 @@ PYGMENTS_STYLE = "solarizedlight"
 BOOTSTRAP_THEME = 'journal' #'simplex'# 'cosmo' # 'readable'
 BOOTSTRAP_NAVBAR_INVERSE = False
 
-#AVATAR = 'images/me.png'
-#ABOUT_ME = 'Here I am!'
 
 GITHUB_USER = 'anujk3'
 GITHUB_SKIP_FORK = True
@@ -120,7 +119,7 @@ LINKS = None
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/anujkatiyal'),
           ('GitHub', 'https://github.com/anujk3'),
           ('Twitter', 'https://twitter.com/anujkatiyal'),
-	  ('StackOverflow','http://stackoverflow.com/users/812950/anuj','stack-overflow'),)
+	        ('StackOverflow','http://stackoverflow.com/users/812950/anuj','stack-overflow'),)
 
 # FB Open Graph and Twitter
 USE_OPEN_GRAPH = True
@@ -134,3 +133,5 @@ CC_LICENSE = "CC-BY-NC-SA"
 DISQUS_SITENAME = 'anujkatiyal-com'
 ADDTHIS_PROFILE = 'ra-59d191ede9dfe49b'
 
+FOOTER_AVATAR = 'images/anujkatiyal.jpg'
+FOOTER_ABOUT_ME = "Data Scientist <br> Python Aficionado and R Neophyte <br> Quantified Self Enthusiast and Insight Seeker <br> Striving Statistician <br> Marathoner"
