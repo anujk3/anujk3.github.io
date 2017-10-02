@@ -1,0 +1,7 @@
+Title: K-Nearest Neighbors using numpy in Python
+Slug: ml-knn
+Date: 2017-10-01 22:31
+Category: Machine Learning
+Tags: python, numpy, matplotlib
+Author: Anuj Katiyal
+Summary: Implementing K-Nearest Neighbors Classification Algorithm using numpy in Python and visualizing how varying the parameter K affects the classification accuracy
