@@ -132,5 +132,5 @@ CC_LICENSE = "CC-BY-NC-SA"
 
 
 DISQUS_SITENAME = 'anujkatiyal-com'
-ADDTHIS_PROFILE = 'ra-59d18c8fa90b4cec'
+ADDTHIS_PROFILE = 'ra-59d191ede9dfe49b'
 
