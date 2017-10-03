@@ -6,7 +6,8 @@ import os
 #################### SITE SETTINGS #######################
 
 AUTHOR = 'Anuj Katiyal'
-SITENAME = 'Solarized Mode ON'
+SITENAME = 'Anuj Katiyal'
+BANNER_SITENAME = "Solarized Mode ON"
 SITEURL = 'http://localhost:8000'
 HIDE_SITENAME = False
 
