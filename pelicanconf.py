@@ -42,6 +42,7 @@ DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 # ipynb settings
 IPYNB_USE_META_SUMMARY = True
+IGNORE_FILES = ['.ipynb_checkpoints']
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup', 'i18n_subsites', 'liquid_tags.video', 'liquid_tags.img',
