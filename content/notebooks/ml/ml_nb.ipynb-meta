@@ -4,5 +4,5 @@ Date: 2017-10-21 22:10
 Category: Machine Learning
 Tags: python, numpy, matplotlib
 Author: Anuj Katiyal
-Summary: Implementing Naive Bayes algorithm from scratch using numpy in Python. The dataset has 57 features, out of which the first 55 follow Bernoulli Distribution and the other 2 come from a Pareto Distribution.
+Summary: Implementing Naive Bayes algorithm from scratch using numpy in Python. The dataset has 57 features, out of which the first 54 follow Bernoulli Distribution and the other 3 come from a Pareto Distribution.
 
