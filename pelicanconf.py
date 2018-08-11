@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import os
+# import os
 
 #################### SITE SETTINGS #######################
 
@@ -13,8 +13,8 @@ HIDE_SITENAME = False
 
 ################### DEVELOPMENT SETTINGS #################
 
-RELATIVE_URLS = False   # when deploying site
-#RELATIVE_URLS = True    # developing site
+RELATIVE_URLS = False  # when deploying site
+# RELATIVE_URLS = True    # developing site
 
 # when changing settings set this to false
 LOAD_CONTENT_CACHE = False
@@ -28,16 +28,16 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 PATH = 'content'
 STATIC_PATHS = ['images', 'codes', 'figures', 'notebooks', 'extra/CNAME', 'extra/robots.txt', 'pdfs']
 EXTRA_PATH_METADATA = {
-        'extra/CNAME': {'path': 'CNAME'},
-        'extra/robots.txt': {'path': 'robots.txt'},
-        'pdfs/AnujKatiyal_Resume.pdf': {'path': 'AnujKatiyal_Resume.pdf'}
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'pdfs/AnujKatiyal_Resume.pdf': {'path': 'AnujKatiyal_Resume.pdf'}
 }
-#PAGE_PATHS = ['notebooks']
-#ARTICLE_PATHS = ['notebooks']
+# PAGE_PATHS = ['notebooks']
+# ARTICLE_PATHS = ['notebooks']
 NOTEBOOK_DIR = 'notebooks'
-#ARTICLE_PATHS = ['content']
+# ARTICLE_PATHS = ['content']
 USE_FOLDER_AS_CATEGORY = False
-THEME = "./pelican-bootstrap3" # 'notmyidea'
+THEME = "./pelican-bootstrap3"  # 'notmyidea'
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 # ipynb settings
@@ -46,39 +46,39 @@ IGNORE_FILES = ['.ipynb_checkpoints']
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup', 'i18n_subsites', 'liquid_tags.video', 'liquid_tags.img',
-        'liquid_tags.youtube', 'liquid_tags.vimeo', 'liquid_tags.include_code',
-        'tipue_search', 'tag_cloud']
+           'liquid_tags.youtube', 'liquid_tags.vimeo', 'liquid_tags.include_code',
+           'tipue_search', 'tag_cloud']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
 MARKDOWN = {
-  'extension_configs': {
+    'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.headerid': {},
-  },
-  'output_format': 'html5',
+    },
+    'output_format': 'html5',
 }
 
 SUMMARY_MAX_LENGTH = 200
 
 ################# BOOTSTRAP SETTINGS ###########################
 BANNER = 'images/datascience.jpg'
-#SITELOGO = 'images/earth.png'
-#SITELOGO_SIZE = 40
+# SITELOGO = 'images/earth.png'
+# SITELOGO_SIZE = 40
 FAVICON = 'images/favicon.ico'
 
 BANNER_SUBTITLE = 'Blog about my Data Science learnings, Python and Data Viz'
 SHOW_ARTICLE_AUTHOR = True
 SHOW_DATE_MODIFIED = True
-BOOTSTRAP_FLUID = False   # set as false if you want a fixed width
+BOOTSTRAP_FLUID = False  # set as false if you want a fixed width
 BANNER_ALL_PAGES = False
 
-DEFAULT_PAGINATION = 6   #10
+DEFAULT_PAGINATION = 6  # 10
 DISPLAY_BREADCRUMBS = False
 DISPLAY_TAGS_ON_SIDEBAR = True
-HIDE_SIDEBAR  = False
+HIDE_SIDEBAR = False
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
@@ -88,9 +88,8 @@ DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 RECENT_POST_COUNT = 5
 PYGMENTS_STYLE = "solarizedlight"
 
-BOOTSTRAP_THEME = 'journal' #'simplex'# 'cosmo' # 'readable'
+BOOTSTRAP_THEME = 'journal'  # 'simplex'# 'cosmo' # 'readable'
 BOOTSTRAP_NAVBAR_INVERSE = False
-
 
 GITHUB_USER = 'anujk3'
 GITHUB_SKIP_FORK = True
@@ -121,7 +120,7 @@ LINKS = None
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/anujkatiyal'),
           ('GitHub', 'https://github.com/anujk3'),
           ('Twitter', 'https://twitter.com/anujkatiyal'),
-	        ('StackOverflow','http://stackoverflow.com/users/812950/anuj','stack-overflow'),)
+          ('StackOverflow', 'http://stackoverflow.com/users/812950/anuj', 'stack-overflow'),)
 
 # FB Open Graph and Twitter
 USE_OPEN_GRAPH = True
@@ -130,7 +129,6 @@ OPEN_GRAPH_IMAGE = 'images/anujkatiyal.jpg'
 TWITTER_CARDS = True
 
 CC_LICENSE = "CC-BY-NC-SA"
-
 
 DISQUS_SITENAME = 'anujkatiyal-com'
 ADDTHIS_PROFILE = 'ra-59d191ede9dfe49b'

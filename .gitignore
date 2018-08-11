@@ -105,3 +105,6 @@ pelican-themes/
 pelican-plugins/
 *.pid
 output/
+
+# Idea
+.idea/
