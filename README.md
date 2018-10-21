@@ -2,4 +2,4 @@
 
 ### My Personal Blog
 
-Data science learnings - explained using Jupyter notebooks.
+Data science, DevOps and my learnings - explained using Jupyter notebooks.
