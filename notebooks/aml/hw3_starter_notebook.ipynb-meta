@@ -1,0 +1,7 @@
+Title: In-class Kaggle Classification Challenge for Bank's Marketing Campaign
+Slug: aml-kaggle
+Date: 2017-10-01 03:31
+Category: Machine Learning
+Tags: python, scikit-learn, matplotlib, kaggle
+Author: Anuj Katiyal
+Summary: Using scikit-learn classifiers for a classification challenge to label if the bank term deposit would be subscribed to or not based on the marketing phone calls
