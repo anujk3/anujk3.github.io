@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Anuj Katiyal'
 SITENAME = 'Anuj Katiyal'
-BANNER_SITENAME = "Solarized Mode ON"
+BANNER_SITENAME = "Data Science Essentials"
 SITEURL = 'http://localhost:8000'
 HIDE_SITENAME = False
 

@@ -108,3 +108,6 @@ output/
 
 # Idea
 .idea/
+
+# VS Code
+.vscode/
