@@ -1,7 +1,0 @@
-Title: Logistic Regression using numpy in Python
-Slug: ml-logistic
-Date: 2017-10-01 01:01
-Category: Machine Learning
-Tags: python, numpy, matplotlib
-Author: Anuj Katiyal
-Summary: Implementing logistic regression using numpy in Python and visualizing the objective function variation as a function of iterations. The log likelihood function for logistic regression is maximized over w using Steepest Ascent and Newton's Method

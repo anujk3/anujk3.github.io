@@ -1,6 +1,0 @@
-pelican
-pandas
-scipy
-numpy
-scikit-learn
-ipython

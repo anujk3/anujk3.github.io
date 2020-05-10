@@ -1,7 +1,0 @@
-Title: Adaboost Algorithm using numpy in Python
-Slug: ml-adaboost
-Date: 2017-10-24 21:31
-Category: Machine Learning
-Tags: python, numpy, matplotlib
-Author: Anuj Katiyal
-Summary: Implementation of Adaboost algorithm while boosting the Linear Regression based weak classifier, plotting training vs testing error and seeing how training error goes to 0, plotting a histogram of important features along with alphas and epsilons as a function of the number of iterations.
