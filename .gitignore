@@ -101,8 +101,6 @@ ENV/
 # mypy
 .mypy_cache/
 .DS_Store
-pelican-themes/
-pelican-plugins/
 *.pid
 output/
 
